@@ -22,3 +22,4 @@ def solution(array, commands):
 
     return answer
 
+# 테스트에서는 되는데 최종 제출에서 런타임 에러가 뜸.
