@@ -21,4 +21,4 @@ def solution(array, commands):
         i = i + 1
 
     return answer
-#git slack check
+
