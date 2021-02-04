@@ -5,13 +5,12 @@ def solution(array, commands):
     a = 0
     b = 0
 
-    while i < 3:
+    while i < len(commands):
         a = commands[i][0] - 1
         b = commands[i][1]
         c = commands[i][2] - 1
 
-        # b가 7일 경우 리스트의 길이보다 커서 인식이 안되는 상황 방지
-        if b < 7:
+        if b < len(array):
             tmp = array[a:b]
         else:
             tmp = array[a:]
@@ -21,5 +20,3 @@ def solution(array, commands):
         i = i + 1
 
     return answer
-
-# 테스트에서는 되는데 최종 제출에서 런타임 에러가 뜸.
