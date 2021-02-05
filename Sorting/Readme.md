@@ -10,6 +10,8 @@
 
 * Collections.sort(list)를 하면 오름차순으로 정렬, Collections.reverse(list)를 하면 내림차순으로 정렬
 
+  * [Java에 내장된 정렬 함수 사용하기](https://yahwang.github.io/posts/61)
+
 * copyOfRange() 메소드는 전달받은 배열의 특정 범위에 해당하는 요소만을 새로운 배열로 복사하여 반환
 
   * copyOfRange() 메소드는 첫 번째 매개변수로 복사의 대상이 될 원본 배열을 전달받음

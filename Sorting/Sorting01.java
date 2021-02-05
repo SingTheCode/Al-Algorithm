@@ -22,3 +22,9 @@ class Solution {
         return answer;
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
