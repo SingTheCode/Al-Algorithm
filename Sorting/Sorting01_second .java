@@ -14,12 +14,10 @@ class Solution {
             int j = commands[indexOfRow][1];
             int k = commands[indexOfRow][2];
 
-            List<Integer> portionOfArrayList = new ArrayList<Integer>();
             int[] portionOfArray = Arrays.copyOfRange(array, i-1, j);
-            portionOfArrayList = Arrays.stream(portionOfArray).boxed().collect(Collectors.toList());
-            Collections.sort(portionOfArrayList);
+            Arrays.sort(portionOfArray);
 
-            answer[indexOfRow] = portionOfArrayList.get(k-1).intValue();
+            answer[indexOfRow] = portionOfArray[k-1];
         }
         return answer;
     }
