@@ -120,5 +120,4 @@ Arrays.sort(배열 참조 변수, new FriendSortedByName() ), Collections.sort(�
 
 [자바 Comparable, Comparator 하면 '정렬'을 떠올려라, 자바 객체 정렬의 '기준'을 정하는 방법! (비교랑 다릅니다!)](https://jeong-pro.tistory.com/173)
 
-
-
+(수정)
