@@ -17,6 +17,3 @@ def solution(citations):
         else:
             return hMax - 1
     return hMax
-
-arr = [9,9,9,9,9]
-print(solution(arr))

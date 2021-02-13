@@ -70,19 +70,3 @@ def solution(numbers):
                 k = k + 1
 
     strResult = "".join(map(str, result))
-    # k = 0
-    # while (k < len(numbers)):
-    #     compareDict[numbers[k]] = compareNum[k]
-    #     k = k + 1
-
-
-
-    # compareNum.sort(reverse=True)
-
-
-
-    print(strResult)
-    return strResult
-
-arr = [3, 30, 34, 5, 9]
-solution(arr)
