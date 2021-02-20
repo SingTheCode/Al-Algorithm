@@ -13,6 +13,8 @@ class Solution {
             for(int latter = former + 1; latter < phone_book.length; latter++) {
                 if(phone_book[latter].startsWith(phone_book[former])) {
                     answer = false;
+                    return answer;
+                }
             }
         }
         return answer;
