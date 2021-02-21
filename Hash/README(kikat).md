@@ -109,3 +109,12 @@
 
 두 함수 모두 boolean 값에 따라 true/false 반환
 
+
+
+##### Hash03.java
+
+***getOrDefault***
+
+default [V](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) getOrDefault([Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html) key, [V](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) defaultValue)
+
+찾는 키가 존재한다면 찾는 키의 값을 반환하고 없다면 기본 값을 반환한다.
