@@ -13,7 +13,9 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
             sum-=bridge.front();
             bridge.pop();
         }
+
         int target=truck_weights.front();               // 다음 트럭의 무게
+
         if(weight<(sum+target)){                        // 다음트럭과 무게의 총합이 무게를 초과할 경우
             bridge.push(0);
         }else{                                          // 초과하지 않을경우
@@ -21,7 +23,9 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
             sum+=target;
             truck_weights.erase(truck_weights.begin());
         }
+
         answer++;
+        
     }while(!truck_weights.empty());
 
     answer+=bridge_length;                              // 마지막 트럭이 통과하는 시간을 더해준다.
