@@ -17,3 +17,5 @@ def solution(citations):
         else:
             return hMax - 1
     return hMax
+
+# arr=[3,3,3,4] 일 경우 오류
