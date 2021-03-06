@@ -7,3 +7,5 @@ def solution(participant, completion):
             participant.remove(completion[i])
             i = i + 1
     return participant[0]
+
+# 정확도 100 효율성 0
