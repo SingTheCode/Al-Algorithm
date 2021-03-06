@@ -70,3 +70,5 @@ def solution(numbers):
                 k = k + 1
 
     strResult = "".join(map(str, result))
+
+# 정확도가 떨어짐
