@@ -12,6 +12,7 @@ def solution(progresses, speeds):
         while progresses:
             if progresses[0] >= 100:
                 progresses.pop(0)
+                speeds.pop(0)
                 distributeCnt = distributeCnt + 1
             else:
                 break
@@ -21,7 +22,7 @@ def solution(progresses, speeds):
     return answer
 
 
-progresses = [95, 90, 99, 99, 80, 99]
-speeds = [1, 1, 1, 1, 1, 1]
+progresses = [40, 90, 30, 55, 60, 65]
+speeds = [60, 1, 30, 5, 10, 7]
 
 print(solution(progresses, speeds))
