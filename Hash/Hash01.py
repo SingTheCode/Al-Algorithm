@@ -1,15 +1,11 @@
 def solution(participant, completion):
     i = 0
-    j = 0
 
-    while(i < len(participant)):
-        check = participant[i] in completion
-        if(check == False):
-            return participant[i]
-
-        else:
-            checkNum = participant.count(participant[i]) - completion.count(participant[i])
-            if(checkNum == 1):
-                return participant[i]
+    while(i < len(completion)):
+        check = completion[i] in participant
+        if(check == True):
+            participant.remove(completion[i])
             i = i + 1
+    return participant[0]
 
+# 정확도 100 효율성 0
